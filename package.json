@@ -1,0 +1,7 @@
+{
+  "name": "painel-weber",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/index.js"
+  }
+}

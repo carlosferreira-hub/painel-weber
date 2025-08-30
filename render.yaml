@@ -1,0 +1,13 @@
+
+services:
+  - type: web
+    name: painel-weber
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: PIX_KEY
+        value: 8ea8b0d0-fe5e-405c-b602-d8f211ed837f
+      - key: ADMIN_TOKEN
+        value: troque-esta-senha
